@@ -5,8 +5,19 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "npx functions-framework --target=webhook",
+    "watch": "npm-watch start"
+  },
+  "watch": {
+    "start": "*.js"
+  },
   "dependencies": {
+    "@google-cloud/functions-framework": "^2.1.0",
     "ably": "^1.2.22",
-    "@google-cloud/functions-framework": "^2.1.0"
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.11.0"
   }
 }
