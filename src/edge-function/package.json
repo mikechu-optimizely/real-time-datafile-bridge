@@ -1,0 +1,12 @@
+{
+  "name": "edge-function",
+  "version": "1.0.0",
+  "description": "An edge function exposing an HTTP webhook for App.Optimizely.com to trigger a push to a pub/sub infrastructure",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ably": "^1.2.22",
+    "@google-cloud/functions-framework": "^2.1.0"
+  }
+}
