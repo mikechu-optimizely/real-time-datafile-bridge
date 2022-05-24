@@ -1,0 +1,12 @@
+node_modules/
+/packages/*/optimizely-*.tgz
+
+npm-debug.log
+lerna-debug.log
+
+coverage/
+dist/
+
+# user-specific ignores ought to be defined in user's `core.excludesfile`
+.idea/*
+.DS_STORE
